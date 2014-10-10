@@ -66,12 +66,12 @@ There are a variety of reasons it may not work as you would like.
  - The wifi access point may isolate users from each other, preventing LPD
  - BitTorrent clients may be on another sub-net, preventing LPD
  - BitTorrent clients may not be advertising with LDP
- - You're bandwidth problem may unrelated to BitTorrent
+ - Your bandwidth problem may unrelated to BitTorrent
  - Something else
 
 ## I'm banned!  Are you anti-bittorrent, pro-hitler, and anti-puppies?
 
-Climate change, ocean fishery collapse, and crappy wifi are all tradgedies of the commons.
+Climate change, ocean fishery collapse, and crappy wifi are all tragedies of the commons.
 
 http://en.wikipedia.org/wiki/Tragedy_of_the_commons
 
@@ -89,7 +89,7 @@ Yes, alternatives include:
 
   1. Block BitTorrent on your router
   2. Configuring traffic QOS on the router
-  2. Banning user's on the router
+  2. Banning users on the router
 
 These are advanced router configurations and may be confusing to the average user and 'home' router equipment:
 
@@ -103,4 +103,4 @@ Configure your router:
   
   1. To block BitTorrent, block ports 6881 to 6999 (easy, but not always effective)
   2. To block devices, use the MAC ids from BitHammer: http://blog.dlink.com/how-to-block-devices-from-your-home-network/ 
-  3. To slow down BitTorrent so other traffic takes precedence, configure "Traffic Shaping" or "Quality of Service (QoS)" - this depends on your router.
+  3. To slow down BitTorrent so other traffic takes precedence, configure "Traffic Shaping" or "Quality of Service (QoS)"; this depends on your router.
