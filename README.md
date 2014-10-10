@@ -83,6 +83,11 @@ __The best workaround to BitHammer is to get a 'private internet VPN'__ and run 
   2. Keep your usage to levels home internet routers can handle, 
   3. Prevent the WiFi owner from getting file-sharing letters from lawyers.
 
+## Thank you! and credit where credit is due:
+
+https://github.com/evilsocket/NetCommander - Python code for ARP cache poisoning and MITM attack. 
+https://github.com/jonls/lpd-monitor - Library I used for LPD monitoring.  
+
 ## Are there better alternatives to BitHammer?
 
 Yes, alternatives include:
