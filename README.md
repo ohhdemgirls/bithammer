@@ -23,7 +23,7 @@ This program:
   2. Adds their IPs and MACs to a ban list, 
   3. Bans them from the network for as long as the program is running.
 
-## BitHammer on Linux:
+## BitHammer on Linux:l
 
 Install `python`, `scapy`, and `git` :
 
@@ -86,7 +86,7 @@ __The best workaround to BitHammer is to get a 'private internet VPN'__ and run 
 ## Thank you! and credit where credit is due:
 
 https://github.com/evilsocket/NetCommander - Python code for ARP cache poisoning and MITM attack. 
-https://github.com/jonls/lpd-monitor - Library I used for LPD monitoring.  
+https://github.com/jonls/lpd-monitor - Library for LPD monitoring.  
 
 ## Are there better alternatives to BitHammer?
 
