@@ -1,10 +1,16 @@
 # BitHammer
 
-#### The BitTorrent BanHammer.
+<img align="right" alt="BitHammer, The BanHammer for BitTorrent" src="http://i.imgur.com/s84Kca4.jpg" />
 
-    NOTE: BitHammer is FOR RESEARCH PURPOSES ONLY.
-          Get permission from a network's owner before using it.  
-          You assume all responsibility for it's use.
+    NOTE: BitHammer is FOR RESEARCH 
+          PURPOSES ONLY.
+      Get permission from a network's 
+          owner before using it.  
+      You assume all responsibility 
+          for its use.
+          
+
+#### The BitTorrent BanHammer.
 
 BitTorrent is ok.  Using BitTorrent on your own network is your own business.  Using BitTorrent on public wifi is not.  BitTorrent aggressively soaks up bandwidth and connections, rendering other programs useless, and other users and admins frustrated.
 
@@ -17,7 +23,7 @@ This program:
   2. Adds their IPs and MACs to a ban list, 
   3. Bans them from the network for as long as the program is running.
 
-## BitHammer on Linux:
+## BitHammer on Linux:l
 
 Install `python`, `scapy`, and `git` :
 
@@ -33,9 +39,7 @@ The `scapy` network library requires `sudo` for root priviledges.  Built and tes
 
 ## BitHammer on Windows or MacOS
 
-In theory, BitHammer should work outside Linux, but I don't care to test it.  Code and documentation pull requests are welcome.  This may help to install `scapy` - the networking library used:
-
-    http://www.secdev.org/projects/scapy/doc/installation.html#platform-specific-instructions
+In theory, BitHammer should work outside Linux, but I don't care to test it.  Code and documentation pull requests are welcome.  [This may help]( http://www.secdev.org/projects/scapy/doc/installation.html#platform-specific-instructions) to install `scapy` - the networking library used.
 
 ## How does it work?
 
@@ -62,12 +66,12 @@ There are a variety of reasons it may not work as you would like.
  - The wifi access point may isolate users from each other, preventing LPD
  - BitTorrent clients may be on another sub-net, preventing LPD
  - BitTorrent clients may not be advertising with LDP
- - You're bandwidth problem may unrelated to BitTorrent
+ - Your bandwidth problem may unrelated to BitTorrent
  - Something else
 
 ## I'm banned!  Are you anti-bittorrent, pro-hitler, and anti-puppies?
 
-Climate change, ocean fishery collapse, and crappy wifi are all tradgedies of the commons.
+Climate change, ocean fishery collapse, and crappy wifi are all tragedies of the commons.
 
 http://en.wikipedia.org/wiki/Tragedy_of_the_commons
 
@@ -79,13 +83,18 @@ __The best workaround to BitHammer is to get a 'private internet VPN'__ and run 
   2. Keep your usage to levels home internet routers can handle, 
   3. Prevent the WiFi owner from getting file-sharing letters from lawyers.
 
+## Thank you! and credit where credit is due:
+
+https://github.com/evilsocket/NetCommander - Python code for ARP cache poisoning and MITM attack. 
+https://github.com/jonls/lpd-monitor - Library for LPD monitoring.  
+
 ## Are there better alternatives to BitHammer?
 
 Yes, alternatives include:
 
   1. Block BitTorrent on your router
   2. Configuring traffic QOS on the router
-  2. Banning user's on the router
+  2. Banning users on the router
 
 These are advanced router configurations and may be confusing to the average user and 'home' router equipment:
 
@@ -99,4 +108,4 @@ Configure your router:
   
   1. To block BitTorrent, block ports 6881 to 6999 (easy, but not always effective)
   2. To block devices, use the MAC ids from BitHammer: http://blog.dlink.com/how-to-block-devices-from-your-home-network/ 
-  3. To slow down BitTorrent so other traffic takes precedence, configure "Traffic Shaping" or "Quality of Service (QoS)" - this depends on your router.
+  3. To slow down BitTorrent so other traffic takes precedence, configure "Traffic Shaping" or "Quality of Service (QoS)"; this depends on your router.
