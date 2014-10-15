@@ -27,7 +27,7 @@ This program:
 
 Install `python`, `scapy`, and `git` :
 
-    sudo apt-get install python python-scapy git
+    sudo apt-get install python python-scapy git tcpdump
 
 Run the program:
 
