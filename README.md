@@ -1,8 +1,10 @@
 # BitHammer
 
+> **Note**: a deleted issue comment showed that some bittorrent clients were depricating the LPD (local peer discovery) protocol.  Sucks for BitHammer, but LPD was a huge privacy leak, so something good came of it.  The result is that BitHammer won't necessarily find all torrenters on your network.  See the bottom of this README for some alternatives.
+
 <img align="right" alt="BitHammer, The BanHammer for BitTorrent" src="http://i.imgur.com/s84Kca4.jpg" />
 
-    NOTE: BitHammer is FOR RESEARCH 
+    BitHammer is FOR RESEARCH 
           PURPOSES ONLY.
       Get permission from a network's 
           owner before using it.  
@@ -77,7 +79,7 @@ http://en.wikipedia.org/wiki/Tragedy_of_the_commons
 
 It's not personal.  It's just that your ignorance and selfishness are ruining things for everyone else.
 
-__The best workaround to BitHammer is to get a 'private internet VPN'__ and run your BitTorrent traffic through that.  Google it.  This will:
+__The best workaround to BitHammer is to get a 'private internet VPN' or 'seedbox'__ and run your BitTorrent traffic through that.  Google it.  This will:
 
   1. Prevent BitHammer from banning you, 
   2. Keep your usage to levels home internet routers can handle, 
